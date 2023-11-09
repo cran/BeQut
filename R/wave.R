@@ -1,0 +1,30 @@
+#' Data of wave
+#'
+#' Data including environmental measurements around Bordeaux from CANDHIS database and data from InfoClimat website.
+#' CANDHIS national in situ wave measurement database.
+#' The measurements were carried out within the framework of a collaboration between the Grand Port Maritime de Nantes St-Nazaire, the École Centrale de Nantes and CEREMA. In addition, data from the InfoClimat site over the same period are used.
+#'
+#' @usage data(wave)
+#'
+#' @name wave
+#' @docType data
+#'
+#' @format A data.frame with 453 observations (rows) and 25 variables with explicit names. The first variables are:
+#' \describe{
+#'   \item{date}{date of measure}
+#'   \item{temperature}{temperature}
+#'   \item{pression}{pressure}
+#'   \item{humidite_relative}{Humidity}
+#'   \item{point2rose}{Dew point temperature}
+#'   \item{visibilite_horiz}{visibility}
+#'   \item{vent_cite_moy}{wind speed average}
+#'   \item{vent_vit_rafale}{maximum of wind speed}
+#'   \item{precipitation_cum}{cumulative rainfall by day}
+#' }
+#'
+#'
+#' @references InfoClimat (https://www.infoclimat.fr/climatologie/stations_principales.php?)
+#'
+#' @examples
+#' data(wave)
+NULL
